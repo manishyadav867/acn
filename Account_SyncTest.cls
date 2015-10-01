@@ -17,7 +17,6 @@ public class Account_SyncTest {
         List<Account> acc = new List<Account>();  
         Map<String, String> requestAccountRequestMaps = new Map<String, String>();
       
-
       
                  test.starttest();
                  User u2 = [SELECT id FROM User WHERE Name  ='AST-UCM Integration User'];
